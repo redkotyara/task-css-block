@@ -1,0 +1,385 @@
+@font-face {
+    font-family: Tex;
+    src: url(fonts/texgyreheros-bold.otf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Tex;
+    src: url(fonts/texgyreheros-regular.otf);
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+body,
+html {
+    margin: 0px auto; 
+    padding: 0px; 
+}
+
+
+#top {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(222, 43, 36);
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+}
+
+#middle {
+    margin: 0px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    background-color: rgb(18, 135, 191);
+}
+
+#ourwork {
+    font-size: 36px;
+    font-family: Tex;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 90px 0px 0px 0px;
+}
+
+#FreeAnalysis {
+    font-family: Tex;
+    font-size: 36px;
+    padding-top: 30px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+#enter {
+    font-size: 20px;
+    font-family: Tex;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    margin-bottom: 12px;
+}
+
+#added {
+    font-size: 20px;
+    font-family: Tex;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    margin-bottom: 12px;
+}
+
+#rectangle{
+    width: 47px;
+    height: 5px;
+    background-color: white;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+
+#menu {
+    margin: 0px auto;
+    padding: 0px;
+    padding-bottom: 50px;
+    align-content: center;
+    width: 1400px;
+}
+
+.box {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    content: "";
+}
+
+.row {
+    margin: 0px auto;
+    height: 350px;
+    width: 1400px;
+}
+
+#form {
+    width: 683px;
+    height: 479px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px auto 0px auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.formText {
+    margin-top: 0px;
+    color:grey;
+    font-family: Tex;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 50px 25px 50px;
+}
+
+.content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(243, 94, 89);
+    overflow: hidden;
+    justify-content: center;
+}
+
+.telegram {
+    align-content: center;
+    margin: 110px 0px 0px 0px;
+}
+
+.photo {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+.ProjName {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-family: Tex;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.menubottomtext {
+    text-align: center;
+    color: white;
+    font-family: Tex;
+    font-weight: 700;
+    font-size: 20;
+    margin: 0px;
+}
+
+
+.photo:hover {
+    transform: scale(1.1);
+}
+
+.circle {
+    margin: 0px auto;
+    width: 50px;
+    height: 50px;
+    content: "";
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.redcircle {
+    float: right;
+    margin-right: -50px;
+    position: relative;
+    left: 30px;
+    bottom: 100px;
+    width: 50px;
+    height: 50px;
+    content: X;
+    font-family: Tex;
+    border-radius: 25px;
+    background-color: red;
+    border: 4px solid white;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+.triangle {
+    margin: 0px auto;
+    position: relative;
+    top: -20px;
+    width: 70px;
+    height: 70px;
+    transform: rotate(45deg);
+    content: "";
+    background-color: white;
+}
+
+#arrow {
+    height: 20px;
+    width: 20px;
+    content: "";
+    top: 25%;
+    left: 26%;
+    transform: translate(-25%, -25%);
+    transform: rotate(45deg);
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    position: absolute;
+}
+
+.infoBorder {
+    width: 445px;
+    height: 52px;
+    text-indent: 10%;
+    display: block;
+    font-family: Tex;
+    font-weight: 400;
+    margin: 2px auto 5px auto;
+    border: 2px solid;
+    border-radius: 5px; 
+}
+
+.submit {
+    width: 25%;
+    text-align: center;
+    height: 10%;
+    display: block;
+    font-size: 18;
+    font-family: Tex;
+    font-weight: 700;
+    background-color: rgb(222, 43, 36);
+    color: white;
+    padding: 1% 0px 1% 0px;
+    margin: 5% auto 5% auto;
+    border: 2px solid rgb(222, 43, 36);
+    border-radius: 4px;
+}
+
+#bottom {
+    background-color: rgb(42, 42, 42);
+    margin: 0px;
+}
+
+.bottomtext {
+    color: white;
+    text-align: center;
+    font-family: Tex;
+    font-size: 29px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.subscribetext {
+    color: rgb(206, 206, 206);
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: OpenSans;
+    margin: 0px 0px 30px 0px;
+    padding-top: 15px;
+}
+
+#email {
+    width: 683px;
+    height: 54px;
+    text-indent: 5px;
+    font-family: OpenSans;
+    display: block;
+    margin: 2px auto 40px auto;
+    background-color: rgb(81, 81, 81);
+    color:rgb(206, 206, 206);
+    border: 0px;
+}
+
+.inline { display: inline-block; }
+
+#SubscribeButton {
+    width: 153px;
+    height: 53px;
+    display: block;
+    height: 60px;
+    margin: 40px auto 70px auto;
+    background-color:rgb(42, 42, 42);
+    color: white;
+    font-family: Tex;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 700;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#logos {
+    margin: 30px auto 15px auto;
+    padding: 0px;
+    width: 212px;
+    position: relative;
+    display: block;
+}
+
+.logobox {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+
+.logocontent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+    margin: 0px;
+    overflow: hidden;
+    justify-content: center;
+    border: 2px solid rgb(81, 81, 81);
+    border-radius: 4px;
+}
+
+.content > div:hover > p {
+    color: rgb(30, 243, 161);
+}
+
+.logocontent:hover {border: 2px solid red; } 
+
+.logophoto {
+    display: block;
+    margin: 10px auto 10px auto;
+    color: white;
+}
+
+.infoBorder:hover {
+    border: 2px solid blue;
+    border-radius: 5px; 
+}
+
+#copyright {
+    text-align: center;
+    background-color: rgb(81, 81, 81);
+    padding: 15px;
+    color: rgb(206, 206, 206);
+    font-size: 14px;
+    font-family: OpenSans;
+    line-height: 27px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.altlogo { color: white; }
